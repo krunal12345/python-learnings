@@ -1,4 +1,8 @@
-import requests 
+myAge = 29
 
-response = requests.get('https://www.google.com')
-print(response.status_code)
+def can_i_get_milf(age):
+    if age >= 18:
+        return True
+    return False
+
+can_i_get_milf(myAge)
